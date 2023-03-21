@@ -10,7 +10,7 @@ import cartState from "../atoms/cartStateAtom";
 import SideBarCart from "./SideBarCart";
 import sideBarCartState from "../atoms/sideBarCartAtom";
 import wishListState from "../atoms/wishListAtom";
-import WishList from "./WishList"
+//import WishList from "./WishList"
 import wishListContainerState from "../atoms/wishListContainer";
 
 
@@ -110,7 +110,7 @@ const Navbar = () => {
 			</div>
 
 			{sideBarCart ? <SideBarCart /> : null}
-			{wishListContainer? <WishList /> : null}
+		{/* //	{wishListContainer? <WishList /> : null} */}
 		</div>
 	);
 };
