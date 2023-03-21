@@ -23,7 +23,7 @@ const Navbar = () => {
 	const [wishListContainer, setWishListContainer] = useRecoilState(wishListContainerState)
 
 	return (
-		<div className="font-manrope flex justify-between items-center px-[50px] py-4 border-2 xl:py-4 xl-px-8 fixed w-full z-20 bg-white">
+		<div className="font-manrope flex justify-between items-center px-[20px] py-4 border-2 xl:py-4 xl-px-8 fixed w-full z-20 bg-white">
 			<div>
 				<img className="w-[50px]" src={logo} alt="" />
 			</div>
@@ -87,7 +87,7 @@ const Navbar = () => {
 					</div>
 					<div>
 						<BsSuitHeart className="w-6 h-6 cursor-pointer" title="Wish List" onClick={() => wishList(true)}/>
-						<p className="text-black text-[14px] bg-[#C5AE32] px-2 rounded-full absolute top-[32px] xl:right-[60px] right-[90px]">
+						<p className="text-black text-[14px] bg-[#C5AE32] px-2 rounded-full absolute top-[32px] xl:right-[30px] right-[60px]">
 							{wishList.length}</p>
 					</div>
 				</div>

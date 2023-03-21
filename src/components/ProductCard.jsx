@@ -42,13 +42,13 @@ const ProductCard = ({ ...product }) => {
 		<div className="xl:px-12 pb-8 flex flex-col items-start">
 			<img
 				src={product.image}
-				className="md:w-[200px] md:h-[200px] object-contain mb-4 w-full h-[200px] self-start"
+				className="md:w-[200px] w-[130px] md:h-[200px] object-contain mb-4 w-full h-[200px] self-start"
 			/>
 			<h3 className="font-bold md:text-[17px] text-[12px]">{product.title}</h3>
-			<h5 className="md:text-[15px] text-[10px] text-black/60">${product.price}</h5>
+			<h5 className="md:text-[15px] text-[13px] mt-2 text-black/60">${product.price}</h5>
 			<div className="flex items-center gap-4 w-full">
 				<button
-					className="bg-[#c0a71be3] md:py-2 md:px-4 rounded-lg mt-8 text-[14px] px-8 py-4 md:text-[15px] w-[80%]"
+					className="bg-[#c0a71be3] md:py-2 md:px-4 rounded-lg mt-8 text-[14px] px-4 py-2 md:text-[15px] w-[80%]"
 					onClick={() => {
 						handleAddtoCart(product);
 					}}>
