@@ -12,6 +12,7 @@ import sideBarCartState from "../atoms/sideBarCartAtom";
 import wishListState from "../atoms/wishListAtom";
 //import WishList from "./WishList"
 import wishListContainerState from "../atoms/wishListContainer";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -31,17 +32,17 @@ const Navbar = () => {
 			{/* desktop navbar */}
 
 			<div className="flex gap-8 list-none cursor-pointer hidden xl:flex">
-				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
+				<Link  className="hover:text-amber-500 transition transform hover:-translate-y-2" to="/">
 					Home
+				</Link>
+				<Link className="hover:text-amber-500 transition transform hover:-translate-y-2" to="/fragrances">
+					Fragrances
+				</Link>
+				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
+					Furnitures
 				</li>
 				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
-					About
-				</li>
-				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
-					Services
-				</li>
-				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
-					Products
+					Electronics
 				</li>
 				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
 					Contacts
