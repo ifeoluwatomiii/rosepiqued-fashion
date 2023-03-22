@@ -32,19 +32,19 @@ const Navbar = () => {
 			{/* desktop navbar */}
 
 			<div className="flex gap-8 list-none cursor-pointer hidden xl:flex">
-				<Link  className="hover:text-amber-500 transition transform hover:-translate-y-2" to="/">
+				<Link  className="hover:text-amber-500" to="/">
 					Home
 				</Link>
-				<Link className="hover:text-amber-500 transition transform hover:-translate-y-2" to="/fragrances">
+				<Link className="hover:text-amber-500" to="/fragrances">
 					Fragrances
 				</Link>
-				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
+				<li className="hover:text-amber-500">
 					Furnitures
 				</li>
-				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
+				<li className="hover:text-amber-500">
 					Electronics
 				</li>
-				<li className="hover:text-amber-500 transition transform hover:-translate-y-2">
+				<li className="hover:text-amber-500">
 					Contacts
 				</li>
 			</div>
@@ -57,18 +57,18 @@ const Navbar = () => {
 						: "flex gap-8 list-none cursor-pointer flex-col  top-0 left-[-100%] pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4 transition-all ease-out duration-500"
 				}>
 				<img className="w-[50px]" src={logo} alt="" />
-				<li className="hover:text-amber-500 transition transform hover:-translate-x-3">
+				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3" to="/">
 					Home
-				</li>
-				<li className="hover:text-amber-500 transition transform hover:-translate-x-3">
-					About
-				</li>
-				<li className="hover:text-amber-500 transition transform hover:-translate-x-3">
-					Services
-				</li>
-				<li className="hover:text-amber-500 transition transform hover:-translate-x-3">
-					Products
-				</li>
+				</Link>
+				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3" to="/fragrances">
+					Fragrances
+				</Link>
+				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3">
+					Furnitures
+				</Link>
+				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3">
+					Electronics
+				</Link>
 				<li className="hover:text-amber-500 transition transform hover:-translate-x-3">
 					Contacts
 				</li>
