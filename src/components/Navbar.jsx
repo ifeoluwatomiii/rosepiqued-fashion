@@ -26,25 +26,27 @@ const Navbar = () => {
 	return (
 		<div className="font-manrope flex justify-between items-center px-[20px] py-4 border-2 xl:py-4 xl-px-8 fixed w-full z-20 bg-white">
 			<div>
+				<Link to="/">
 				<img className="w-[50px]" src={logo} alt="" />
+				</Link>
 			</div>
 
 			{/* desktop navbar */}
 
 			<div className="flex gap-8 list-none cursor-pointer hidden xl:flex">
-				<Link  className="hover:text-amber-500" to="/">
+				<Link  className="hover:text-amber-500 hover:font-bold" to="/">
 					Home
 				</Link>
-				<Link className="hover:text-amber-500" to="/fragrances">
+				<Link className="hover:text-amber-500 hover:font-bold" to="/fragrances">
 					Fragrances
 				</Link>
-				<li className="hover:text-amber-500">
+				<li className="hover:text-amber-500 hover:font-bold">
 					Furnitures
 				</li>
-				<li className="hover:text-amber-500">
+				<li className="hover:text-amber-500 hover:font-bold">
 					Electronics
 				</li>
-				<li className="hover:text-amber-500">
+				<li className="hover:text-amber-500 hover:font-bold">
 					Contacts
 				</li>
 			</div>
@@ -53,7 +55,7 @@ const Navbar = () => {
 			<div
 				className={
 					isOpen
-						? "z-20 flex gap-8 list-none cursor-pointer xl:hidden flex-col transition-all ease-in duration-500 top-0 left-0 pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4 z-10"
+						? "z-20 flex gap-8 list-none cursor-pointer xl:hidden flex-col transition-all ease-in duration-500 top-0 left-0 pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4"
 						: "flex gap-8 list-none cursor-pointer flex-col  top-0 left-[-100%] pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4 transition-all ease-out duration-500"
 				}>
 				<img className="w-[50px]" src={logo} alt="" />

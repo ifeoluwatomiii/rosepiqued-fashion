@@ -1,0 +1,149 @@
+{
+    "products": [
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679523113/candle1-removebg-preview_ow05kt.png",
+        "title": "Diptyque Baies Scented Candle",
+        "price": 64.00,
+        "category": "scented candle"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679523425/perfume1-removebg-preview_dkqlds.png",
+        "title": "Jo Malone English Pear & Freesia Cologne",
+        "price": 142.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679522787/candle3-removebg-preview_lmjxe3.png",
+        "title": "Voluspa Maison Blanc Prosecco Bellini Candle",
+        "price": 30.00,
+        "category": "scented candle"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679525725/diffusers1-removebg-preview_oxhxxv.png",
+        "title": "NEST Fragrances Bamboo Reed Diffuser",
+        "price": 48.00,
+        "category": "diffuser"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679523674/perfume2-removebg-preview_krtxs4.png",
+        "title": "Le Labo Santal 33 Eau de Parfum",
+        "price": 83.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679672577/pexels-ali-kazal-10771725-removebg-preview_h0ydes.png",
+        "title": "Banfe National Park Scented Candle",
+        "price": 68.00,
+        "category": "scented candle"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679525725/diffuser2-removebg-preview_sff7vd.png",
+        "title": "NEST Fragrances Grapefruit Reed Diffuser",
+        "price": 48.00,
+        "category": "diffuser"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679523993/perfume4-removebg-preview_r7isr2.png",
+        "title": "Byredo Mojave Ghost Eau de Parfum",
+        "price": 180.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679527206/pexels-ekaterina-bolovtsova-6311868-removebg-preview_cdnpoj.png",
+        "title": "Diptyque Roses Scented Candle",
+        "price": 68.00,
+        "category": "scented candle"
+      },
+      {
+        
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679525727/diffuser3-removebg-preview_evfsxi.png",
+        "title": "NEST Fragrances Moroccan Amber Reed Diffuser",
+        "price": "$48.00",
+        "category": "diffusers"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679524331/perfume3-removebg-preview_uf4izv.png",
+        "title": "Tom Ford Black Orchid Eau de Parfum",
+        "price": 134.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679527207/pexels-polinach-12766281-removebg-preview_da36yw.png",
+        "title": "Jo Malone Lime Basil & Mandarin Scented Candle",
+        "price": 69.00,
+        "category": "scented candle"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679525726/diffuser4-removebg-preview_dj6kms.png",
+        "title": "NEST Fragrances Ocean Mist & Sea Salt Reed Diffuser",
+        "price": 48.00,
+        "category": "diffuser"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679527206/candle4-removebg-preview_e42doc.png",
+        "title": "Diptyque Ambre Scented Candle",
+        "price": 68.00,
+        "category": "scented candle"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679524278/perfume5-removebg-preview_hliubb.png",
+        "title": "Byredo Gypsy Water Eau de Parfum",
+        "price": 180.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679525725/diffuser5-removebg-preview_cxb31h.png",
+        "title": "NEST Fragrances Pumpkin Chai Reed Diffuser",
+        "price": 48.00,
+        "category": "diffuser"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679524889/perfume7-removebg-preview_h5t7al.png",
+        "title": "Jo Malone Peony & Blush Suede Cologne",
+        "price": 142.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679573110/pexels-pegah-sharifi-12538232-removebg-preview_hxd1hg.png",
+        "title": "Boss ",
+        "price": 30.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679572940/pexels-anastasiya-lobanovskaya-4110340-removebg-preview_qgcau9.png",
+        "title": "NEST Fragrance",
+        "price": 48.00,
+        "category": "perfume"
+      },
+      {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679524883/perfume6-removebg-preview_jszgio.png",
+        "title": "Byredo Blanche",
+        "price": 180.00,
+        "category": "perfume"
+        },
+        {
+        "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679527837/pexels-kristina-umaeva-7532463-removebg-preview_mogvbm.png",
+        "title": "Diptyque Feu de Bois Scented Candle",
+        "price": 68.00,
+        "category": "scented candle"
+        },
+        {
+          "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679573382/pexels-yulisv-7941434-removebg-preview_o0kup2.png",
+          "title": "LOEWE",
+          "price":30.00,
+          "category":"perfume"
+        },
+        {
+          "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679573382/pexels-b%E1%BA%A3o-ph%C3%BAc-11927264-removebg-preview_mslgys.png",
+          "title": "Japanese Cherry Blossom",
+          "price": 75.00,
+          "category":"perfume"
+        },
+        {
+          "image": "https://res.cloudinary.com/dsfj7lxyf/image/upload/v1679573382/pexels-anastasiya-lobanovskaya-4110347-removebg-preview_mipdnl.png",
+          "title": "Anastacia",
+          "price":64.00,
+          "category":"perfume"
+        }
+    ]
+}
