@@ -28,7 +28,7 @@ const FragranceList = () => {
   return (
     <div>
       {isloading ? (
-				<Lottie animationData={balls} loop={true} className="w-[50%] flex justify-center items-center" />
+				<Lottie animationData={balls} loop={true} className="w-[60%] " />
 			) : (
 				<div className="grid xl:grid-cols-4 xl:gap-10 grid-cols-2 gap-8">
 					{products.map((product) => (
