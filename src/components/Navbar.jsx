@@ -40,9 +40,9 @@ const Navbar = () => {
 				<Link className="hover:text-amber-500 hover:font-bold" to="/fragrances">
 					Fragrances
 				</Link>
-				<li className="hover:text-amber-500 hover:font-bold">
+				<Link className="hover:text-amber-500 hover:font-bold" to="/furnitures">
 					Furnitures
-				</li>
+				</Link>
 				<li className="hover:text-amber-500 hover:font-bold">
 					Electronics
 				</li>
@@ -56,16 +56,16 @@ const Navbar = () => {
 				className={
 					isOpen
 						? "z-20 flex gap-8 list-none cursor-pointer xl:hidden flex-col transition-all ease-in duration-500 top-0 left-0 pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4"
-						: "flex gap-8 list-none cursor-pointer flex-col  top-0 left-[-100%] pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4 transition-all ease-out duration-500"
+						: "flex gap-8 list-none cursor-pointer flex-col  top-0 left-[-100%] pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4 transition-all ease-out duration-500" 
 				}>
 				<img className="w-[50px]" src={logo} alt="" />
-				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3" to="/">
+				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3" to="/" onClick={()=>{{setIsOpen(false)}}}>
 					Home
 				</Link>
-				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3" to="/fragrances">
+				<Link onClick={()=>{{setIsOpen(false)}}} className="hover:text-amber-500 transition transform hover:-translate-x-3" to="/fragrances">
 					Fragrances
 				</Link>
-				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3">
+				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3" to="/furnitures" onClick={()=> {{setIsOpen(false)}}}>
 					Furnitures
 				</Link>
 				<Link className="hover:text-amber-500 transition transform hover:-translate-x-3">

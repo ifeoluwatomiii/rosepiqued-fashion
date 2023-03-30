@@ -2,8 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import ProductCard from "./ProductCard";
-import Lottie from "lottie-react"
-import balls from "../assets/loading.json"
+
 
 const ProductsList = () => {
 	const [products, setProducts] = useState([]);
@@ -27,7 +26,7 @@ const ProductsList = () => {
 	return (
 		<div>
 			{isloading ? (
-				<Lottie animationData={balls} loop={true} className="w-[50%] text-amber/500" />
+				<h3>Loading...</h3>
 			) : (
 				<div className="grid xl:grid-cols-4 xl:gap-10 grid-cols-2 gap-8">
 					{products.map((product) => (

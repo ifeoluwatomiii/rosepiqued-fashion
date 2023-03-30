@@ -116,7 +116,7 @@ const SideBarCart = () => {
 				)}
 			</div>
 			<div>
-				<div className="fixed bottom-5">
+				<div className="fixed bottom-6 text-xl font-bold">
 					{cart.length > 0 ? (
 						<h2>Cart Total : ${cartTotalPrice(cart)}</h2>
 					) : null}

@@ -46,7 +46,7 @@ const Fragrances = () => {
                     <div 
                     className='h-[60vh] xl:h-[70vh] bg-center bg-cover'
                     style={{ backgroundImage: `url(${item.bgImg})`}}>
-                        <div className="slide-content bg-black/75 h-[50vh] xl:h-[70vh] w-full text-white flex flex-col items-start justify-center px-8 pt-12">
+                        <div className="slide-content bg-black/75 h-[60vh] xl:h-[70vh] w-full text-white flex justify-center items-center flex-col px-8 pt-12">
                             <h3 className='font-bold text-3xl mb-4'>{item.heading}</h3>
                             <button className='bg-transparent border border-amber-500 hover:bg-amber-600 px-4 py-2 rounded-full'>{item.btnText}</button>
                         </div>
