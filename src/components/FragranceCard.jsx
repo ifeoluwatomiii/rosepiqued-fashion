@@ -39,7 +39,7 @@ const FragranceCard = ({ ...product }) => {
 	console.log(isClicked);
 
   return (
-    <div className="xl:px-12 pb-8 flex flex-col items-start px-4 py-12">
+    <div className="xl:px-12 pb-8 flex flex-col items-start px-4 py-4">
 			<img
 				src={product.image}
 				className="md:w-[200px] w-[130px] md:h-[200px] object-contain mb-4 h-[200px] self-start"

@@ -45,7 +45,7 @@ const FragranceList = () => {
 			{isloading ? (
 				<h3>Loading...</h3>
 			) : (
-				<div className="grid xl:grid-cols-4 xl:gap-10 grid-cols-2 gap-8">
+				<div className="grid xl:grid-cols-4 xl:gap-10 grid-cols-2 gap-3">
 					{products.map((product) => (
 						<FragranceCard key={product.id} {...product} />
 					))}
