@@ -7,7 +7,7 @@ const Furnitures = () => {
   return (
 	<div>
     <div>
-      <img src={chair} alt="" />
+      <img className='w-full h-[40vh]' src={chair} alt="" />
     </div>
   </div>
   )

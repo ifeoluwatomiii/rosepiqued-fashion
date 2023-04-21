@@ -3,15 +3,19 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import FragranceCard from "./FragranceCard";
 import supabase from "../supabaseClient.js";
+import { useRecoilValue } from "recoil";
+import productsState from "../atoms/productsAtom";
 
 const FragranceList = () => {
-	const [products, setProducts] = useState([]);
+	const products = useRecoilValue(productsState);
 	const [isloading, setIsLoading] = useState(false);
+	/* 	const [products, setProducts] = useRecoilState(productsState);
+	
 
 	useEffect(() => {
 		fetchProducts();
 	}, []);
-
+ */
 	/*   const fetchProducts = async () => {
 		try {
 			setIsLoading(true);
@@ -23,6 +27,7 @@ const FragranceList = () => {
 		}
 	}; */
 
+	/* console.log(products)
 	const fetchProducts = async () => {
 		try {
 			const { data, error } = await supabase.from("products").select("*");
@@ -36,7 +41,7 @@ const FragranceList = () => {
 			alert(error);
 		}
 	};
-
+ */
 	return (
 		<div>
 			<h3 className="font-bold text-2xl text-[#c0a71be3] py-8 m-4 text-center">
