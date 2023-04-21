@@ -18,11 +18,11 @@ const SingleProduct = () => {
 
 	console.log(products);
 	return (
-		<div className=" flex items-center justify-center py-[100px] gap-8 flex-col px-4 xl:flex-row xl:container xl:max-w-[1200px] xl:mx-auto">
+		<div className=" flex items-center justify-center pt-12 h-[100vh] gap-8 flex-col px-4 xl:flex-row xl:container xl:max-w-[1200px] xl:mx-auto">
 			<div className="shadow-md shadow-slate-200 bg-[#F2F2F2] rounded mt-4 xl:w-1/2 flex items-center justify-center py-4 px-4">
 				<img
 					className="transition transform hover:scale-110 duration-500 ease-in-out"
-					src={singleProduct.image}
+					src={singleProduct?.image}
 					alt=""
 				/>
 			</div>
@@ -34,14 +34,14 @@ const SingleProduct = () => {
 					{singleProduct?.title}
 				</h4>
 
-				<p className="mt-4  underline underline-offset-8 decoration-slate-400">{singleProduct.category}</p>
+				<p className="mt-4  underline underline-offset-8 decoration-slate-400">{singleProduct?.category}</p>
 
 				<p className="mt-4 ">
 					{" "}
 					<span className="font-bold underline underline-offset-4 decoration-slate-400"> Description:</span> <br />
-					{singleProduct.description}
+					{singleProduct?.description}
 				</p>
-				<button className="bg-[#c0a71be3] md:py-2 md:px-2 rounded-lg mt-4 text-[14px] px-4 py-2 md:text-[15px] w-[50%]">
+				<button className="bg-[#c0a71be3] md:py-2 md:px-2 rounded-lg mt-12 text-[14px] px-4 py-2 md:text-[15px] w-[50%] ">
 					Buy
 				</button>
 			</div>
