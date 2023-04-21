@@ -18,7 +18,7 @@ const SingleProduct = () => {
 
 	console.log(products);
 	return (
-		<div className=" flex items-center justify-center pt-12 h-[100vh] gap-8 flex-col px-4 xl:flex-row xl:container xl:max-w-[1200px] xl:mx-auto">
+		<div className=" flex items-center justify-center pt-[130px] py-[100px] gap-8 flex-col px-4 xl:flex-row xl:container xl:max-w-[1200px] xl:mx-auto">
 			<div className="shadow-md shadow-slate-200 bg-[#F2F2F2] rounded mt-4 xl:w-1/2 flex items-center justify-center py-4 px-4">
 				<img
 					className="transition transform hover:scale-110 duration-500 ease-in-out"
