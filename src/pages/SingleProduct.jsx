@@ -27,10 +27,10 @@ const SingleProduct = () => {
 				/>
 			</div>
 			<div className="flex flex-col xl:w-1/2 ">
-				<h4 className="md:text-[15px] text-[13px] mt-2 text-black/60">
+				<h4 className="md:text-[23px] text-[19px] font-bold mt-2 text-black/60">
 					${singleProduct?.price}
 				</h4>
-				<h4 className="font-bold md:text-[17px] text-[12px] mt-4  underline underline-offset-8 decoration-slate-400">
+				<h4 className="font-bold md:text-[27px] text-[25px] mt-4  underline underline-offset-8 decoration-slate-400">
 					{singleProduct?.title}
 				</h4>
 
