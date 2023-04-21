@@ -18,15 +18,15 @@ const SingleProduct = () => {
 
 	console.log(products);
 	return (
-		<div className="h-[100vh] flex items-center justify-center py-4 gap-8 flex-col px-4 xl:flex-row container max-w-[1200px] mx-auto">
-			<div className="shadow-md shadow-slate-200 bg-[#F2F2F2] rounded mt-4 w-1/2 flex items-center justify-center py-4 px-4">
+		<div className=" flex items-center justify-center py-[100px] gap-8 flex-col px-4 xl:flex-row xl:container xl:max-w-[1200px] xl:mx-auto">
+			<div className="shadow-md shadow-slate-200 bg-[#F2F2F2] rounded mt-4 xl:w-1/2 flex items-center justify-center py-4 px-4">
 				<img
 					className="transition transform hover:scale-110 duration-500 ease-in-out"
 					src={singleProduct.image}
 					alt=""
 				/>
 			</div>
-			<div className="flex flex-col w-1/2 ">
+			<div className="flex flex-col xl:w-1/2 ">
 				<h4 className="md:text-[15px] text-[13px] mt-2 text-black/60">
 					${singleProduct?.price}
 				</h4>
